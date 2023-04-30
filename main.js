@@ -1,10 +1,15 @@
 //TODO:memory could be in session/cookie too
 const memory = [];
 let memoryIndex = 0;
+const phone = phoneCheck();
+let beginIndexOnPhone = 0;
+let endIndexOnPhone = 0;
 
 $(document).ready(function () {
   $('body').click(function () {
-    $('#inputField').trigger('focus');
+    if (!phone) {
+      $('#inputField').trigger('focus');
+    }
   });
 
   $(':button:not(#clear)').click(function () {
@@ -13,6 +18,13 @@ $(document).ready(function () {
 
   $('#inputField').on('input', function () {
     $('#clear').val('C');
+  });
+
+  $('#inputField').click(function () {
+    if (phone) {
+      beginIndexOnPhone = $('#inputField')[0].selectionStart;
+      endIndexOnPhone = $('#inputField')[0].selectionEnd;
+    }
   });
 
   $('.expression').click(function () {
