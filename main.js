@@ -1,4 +1,3 @@
-//TODO:memory could be in session/cookie too
 const memory = [];
 let memoryIndex = 0;
 const phone = phoneCheck();
