@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+[type='button'] {
+  min-height: 4rem;
+}
+
+.btn-success {
+  background-color: #33cc33;
+}
+
+.btn-primary {
+  background-color: #4d79ff;
+}
+
+.btn-secondary {
+  background-color: #3385ff;
+}
