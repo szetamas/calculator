@@ -18,3 +18,7 @@ body {
 .btn-secondary {
   background-color: #3385ff;
 }
+
+#error {
+  color: red;
+}
