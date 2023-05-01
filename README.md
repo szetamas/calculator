@@ -5,6 +5,7 @@ It is a simple calculator web application with bootsrap, jquery and math.js.
 May those sin, cos, tan and cot have not the best solution (may need some angle ex.: 45˚).
 <h2>TODOs:</h2>
  <ul>
+  <li>may sqrt, abs, cos... need a close ')' when i push the button and cursor is in brackets</li>
   <li>memory could be in session/cookie too</li>
   <li>in phone have to touch the input field for deleting</li>
   <li>in phone has a graphical issue with the pushing of buttons</li>
