@@ -1,5 +1,5 @@
 <h1>calculator</h1>
-You could try this app here: <a href="szetamas.great-site.net/calculator/index.html">szetamas.great-site.net/calculator/index.html</a>
+You could try this app here: <a href="www.szetamas.great-site.net/calculator/index.html">www.szetamas.great-site.net/calculator/index.html</a>
 <br>
 It is a simple calculator web application with bootsrap, jquery and math.js.
 May those sin, cos, tan and cot have not the best solution (may need some angle ex.: 45˚).
